@@ -1,0 +1,16 @@
+# dsh-cursor-suite bundle patch.
+#
+# One row owns both halves: the Cursor subscription provider and the read_image
+# vision bridge. The row id is `cursor-suite` to match the package stem
+# (`dsh-cursor-suite`); DSH derives the settings namespace from this id, so
+# SETTINGS_NAMESPACE and the Cursor panel must use the same name.
+#
+# The `tool-fs` override comes from the vision half and is mandatory: the
+# built-in read_image has to be switched off or the bridge's `read_image`
+# registration loses the name to the built-in one.
+- id: tool-fs
+  config:
+    readImage: false
+- insert:
+    - id: cursor-suite
+      name: dsh-cursor-suite
