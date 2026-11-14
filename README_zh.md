@@ -18,6 +18,16 @@
 - 接管内置 `read_image`，让「声称支持图片却丢像素」的路由也能读图。
 - 设置页：**设置 → Cursor Suite**（命名空间 `cursor-suite`）。
 
+## 界面预览
+
+**订阅额度、登录状态与分模型用量**
+
+![Cursor 套件 — 额度与用量](docs/settings-usage.png)
+
+**运行设置（工具轮次 / 重试）与 `read_image` 视觉委托**
+
+![Cursor 套件 — 运行设置与识图](docs/settings-runtime-vision.png)
+
 ## 安装
 
 ### 插件市场（dshmarket）

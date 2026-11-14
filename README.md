@@ -18,6 +18,16 @@ One DeepSeek Harness plugin that ships two halves together:
 - Replaces the built-in `read_image` so image tools work on routes that advertise image input but drop pixels (Cursor).
 - Settings page under **Settings → Cursor Suite** (namespace `cursor-suite`): sign-in, usage, models, tool-round / retry / replay options.
 
+## Screenshots
+
+**Subscription quota, sign-in status, and per-model usage**
+
+![Cursor Suite — quota and usage](docs/settings-usage.png)
+
+**Runtime limits / retries, and `read_image` vision delegation**
+
+![Cursor Suite — runtime settings and vision](docs/settings-runtime-vision.png)
+
 ## Installation
 
 ### Plugin Market (dshmarket)
