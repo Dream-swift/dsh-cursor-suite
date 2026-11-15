@@ -1,6 +1,6 @@
 {
   "name": "dsh-cursor-suite",
-  "version": "0.6.12",
+  "version": "0.6.13",
   "description": "Cursor subscription provider plus read_image vision bridge for DeepSeek Harness in one plugin",
   "type": "module",
   "main": "./lib/index.js",
